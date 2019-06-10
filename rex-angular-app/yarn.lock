@@ -5357,6 +5357,11 @@ rex-grid@^1.2.0:
   resolved "https://registry.yarnpkg.com/rex-grid/-/rex-grid-1.2.0.tgz#3b5ba7f79444b37dbab6361993eeadaf0b4fcb0a"
   integrity sha512-k0lKm8B6rZBVu4IamZsi27iyeTUw2Fj5qZnnjRK6WQkmBHTFCDPAomQHYVFPvgDxhTvE03cPox7msddu8eC1ug==
 
+rex-logo@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/rex-logo/-/rex-logo-1.4.0.tgz#b7529544dae6746e6fafa2ba30b88d82c45d6f22"
+  integrity sha512-SYgpmPRfL6s76hbVH/d6ewWQ/OyFryhFlx87dyUxfOYlOAnquDwT+HKOCIM8E580KIp5px/rLDbSTb1D8QvW5w==
+
 rfdc@^1.1.2:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/rfdc/-/rfdc-1.1.4.tgz#ba72cc1367a0ccd9cf81a870b3b58bd3ad07f8c2"

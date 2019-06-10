@@ -1,8 +1,9 @@
+@import '~rex-logo/rex-logo.production.min.css';
+@import 'rex-grid/rex-grid.production.min.css';
+
 @import '~rex-core/scss/vars/fonts';
 @import '~rex-core/scss/vars/colors';
 @import '~rex-core/scss/vars/grid';
-
-@import 'rex-grid/rex-grid.production.min.css';
 
 h1 {
   font-family: $font-family-base;
