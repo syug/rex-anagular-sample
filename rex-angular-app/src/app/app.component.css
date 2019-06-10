@@ -1,0 +1,8 @@
+.container {
+  padding: 10px;
+}
+
+app-rex-button {
+  display: block;
+  margin-bottom: 10px;
+}
