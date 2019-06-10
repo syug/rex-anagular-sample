@@ -1,0 +1,16 @@
+@import '~rex-core/scss/vars/fonts';
+@import '~rex-core/scss/vars/colors';
+@import '~rex-core/scss/vars/grid';
+
+@import 'rex-grid/rex-grid.production.min.css';
+
+h1 {
+  font-family: $font-family-base;
+  border-bottom: solid 1px $brand-primary;
+}
+
+.container {
+  .row {
+    padding: 20px;
+  }
+}
