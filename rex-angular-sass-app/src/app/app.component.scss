@@ -1,17 +1,30 @@
-@import '~rex-logo/rex-logo.production.min.css';
+@import 'rex-logo/rex-logo.production.min.css';
 @import 'rex-grid/rex-grid.production.min.css';
 
 @import '~rex-core/scss/vars/fonts';
 @import '~rex-core/scss/vars/colors';
 @import '~rex-core/scss/vars/grid';
 
+:host {
+  display: block;
+  margin: 10px 0;
+}
+
 h1 {
+  // Use variables from rex-core
   font-family: $font-family-base;
-  border-bottom: solid 1px $brand-primary;
+  border-bottom: solid 2px $brand-primary;
+  width: 80%;
+  margin: 0 auto 10px;
+  padding-bottom: 10px;
 }
 
 .container {
+  margin-top: 20px;
   .row {
-    padding: 20px;
+    padding-bottom: 20px;
+  }
+  .row:last-child {
+    padding-bottom: 0px;
   }
 }
